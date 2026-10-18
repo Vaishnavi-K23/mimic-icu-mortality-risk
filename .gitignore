@@ -1,0 +1,13 @@
+# Raw and processed MIMIC-IV data must NEVER be committed — the PhysioNet
+# Data Use Agreement prohibits redistributing the data outside PhysioNet.
+data/
+*.csv
+*.csv.gz
+
+# Standard Python / notebook noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
